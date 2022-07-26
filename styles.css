@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 5fr;
+
+    font-family: 'Roboto', san-serif;
 }
 
 /*
@@ -24,7 +28,7 @@ announcement titles - h5
     grid-template-rows: 1fr 1fr;
 
 
-    background-color: green;
+    background-color: white;
 }
 /*form label in search like placeholder neg margin */
 
@@ -41,13 +45,7 @@ announcement titles - h5
     /* support not to go too low */
 
 
-    background-color: blue;
-}
-
-.logo, .nav, .support {
-    background-color: white;
-    height: 40px;
-    border: 1px solid black;
+    background-color: rgb(0, 166, 222);
 }
 
 /* main content stuff */
@@ -61,7 +59,7 @@ announcement titles - h5
     grid-template-rows: 1fr 1fr;
 
 
-    background-color: red;
+    background-color: lightgrey;
 }
 
 .announcement-section {
@@ -70,10 +68,18 @@ announcement titles - h5
 .announcements {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
+
+
+    background-color: white;
+    border-radius: 10px;
+
 }
 
 .trending-section {
     grid-area: 2/2/-1/-1;
+
+    background-color: white;
+    border-radius: 10px;
 }
 .trends {
     display: grid;
@@ -87,10 +93,25 @@ announcement titles - h5
 }
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     height: 200px;
+    gap: 10px;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+
+    padding: 22px;
+    padding-top: 0px;
 }
 
+/* small stuff */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 .icon {
     width: 20px;
