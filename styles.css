@@ -1,0 +1,84 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+/* header stuff */
+
+.header {
+    grid-area: 1/2/2/-1;
+
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+    background-color: green;
+}
+
+/* sidebar stuff */
+
+.sidebar {
+    grid-area: 1/1/3/2;
+    
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 4fr 3fr 3fr;
+    /* support not to go too low */
+
+
+    background-color: blue;
+}
+
+.logo, .nav, .support {
+    background-color: white;
+    height: 40px;
+    border: 1px solid black;
+}
+
+/* main content stuff */
+
+.main-content {
+    grid-area: 2/2/-1/-1;
+
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+    background-color: red;
+}
+
+.announcement-section {
+    grid-area: 1/2/2/-1;
+}
+.announcements {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.trending-section {
+    grid-area: 2/2/-1/-1;
+}
+.trends {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.project-section {
+    grid-area: 1/1/-1/2;
+
+    
+}
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    height: 200px;
+}
+
+
+
