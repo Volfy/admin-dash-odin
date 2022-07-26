@@ -4,6 +4,15 @@ body {
     grid-template-rows: 1fr 4fr;
 }
 
+/*
+Dashboard - h1
+hi there NAME > NAME - h2
+main-content titles - h3
+project titles - h4
+announcement titles - h5
+*/
+
+
 /* header stuff */
 
 .header {
