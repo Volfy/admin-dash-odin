@@ -92,4 +92,12 @@ announcement titles - h5
 }
 
 
+.icon {
+    width: 20px;
+    height: auto;
+}
 
+.pfp {
+    width: 40px;
+    height: auto;
+}
