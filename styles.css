@@ -207,7 +207,7 @@ h1 .icon {
 
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto 1fr;
     gap: var(--main-padding);
 
     padding: var(--main-padding);
