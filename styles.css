@@ -7,6 +7,8 @@
     --accent-color: #9E2B25;
     --head-color: black;
     --text-color: grey;
+    --shadow-color: #bfb2c3;
+    --main-padding: 22px;
 }
 
 html, body {
@@ -18,12 +20,13 @@ body {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto 1fr;
-
+    row-gap: var(--main-padding);
+    background-color: var(--bg-color);
 
     padding: 0;
 
     font-family: 'Roboto', san-serif;
-    letter-spacing: 0.045em;
+    letter-spacing: 0.01em;
 }
 
 p {
@@ -41,7 +44,6 @@ main-content titles - h3
 project titles - h4
 announcement titles - h5
 
-Boxshadow on header, cards, announcements, trending.
 */
 
 
@@ -58,20 +60,19 @@ Boxshadow on header, cards, announcements, trending.
 
 
 /* header stuff */
-
 .header {
     grid-area: 1/2/2/-1;
-
-    
 
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto auto;
 
     background-color: var(--neutral-color);
-    padding-bottom: 20px;
+    padding-bottom: var(--main-padding);
     padding-left: 20px;
     padding-top: 14px;
+
+    box-shadow: -10px 3px 10px var(--shadow-color);
 }
 .search {
     align-self: center;
@@ -124,7 +125,7 @@ form > button {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    width: 60%;
+    width: fit-content;
 }
 .hello > div {
     grid-area: 1/2/2/3;
@@ -213,7 +214,7 @@ h1 .icon {
 /* main content stuff */
 
 .main-content {
-    --main-padding: 22px;
+    
     grid-area: 2/2/-1/-1;
 
 
@@ -223,6 +224,7 @@ h1 .icon {
     gap: var(--main-padding);
 
     padding: var(--main-padding);
+    padding-top: 0;
 
 
     background-color: var(--bg-color);
@@ -239,6 +241,8 @@ h1 .icon {
 
     background-color: var(--neutral-color);
     border-radius: 10px;
+
+    box-shadow: 3px 3px 10px var(--shadow-color);
 
 }
 hr {
@@ -266,6 +270,7 @@ h5 {
     border-radius: 10px;
     padding: var(--main-padding);
     gap: var(--main-padding);
+    box-shadow: 3px 3px 10px var(--shadow-color);
 }
 .trend {
     display: grid;
@@ -311,6 +316,8 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    box-shadow: 3px 3px 10px var(--shadow-color);
 }
 .card .project-interactions {
     align-self: flex-end;
