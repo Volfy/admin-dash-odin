@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+::root {
+    --bg-color: grey;
+    --main-color: blue;
+    --accent-color: orange;
+    --head-color: black;
+    --text-color: grey;
+}
+
 html, body {
     margin: 0;
     height: 100%;
@@ -31,6 +39,8 @@ hi there NAME > NAME - h2
 main-content titles - h3
 project titles - h4
 announcement titles - h5
+
+Boxshadow on header, cards, announcements, trending.
 */
 
 
@@ -272,6 +282,9 @@ h5 {
 }
 .trend p {
     margin: 0;
+}
+.user {
+    color: black;
 }
 
 .project-section {
