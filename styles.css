@@ -255,6 +255,22 @@ h1 .icon {
 
     padding: var(--main-padding);
     padding-top: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card .project-interactions {
+    align-self: flex-end;
+}
+.card .icon {
+    width: 30px;
+}
+.card p {
+    color: rgb(69, 69, 69);
+}
+h4 {
+    margin-bottom: 0;
 }
 
 /* small stuff */
