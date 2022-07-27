@@ -14,7 +14,11 @@ body {
     padding: 0;
 
     font-family: 'Roboto', san-serif;
+    letter-spacing: 0.045em;
+}
 
+p {
+    letter-spacing: initial;
 }
  
 /*
@@ -24,6 +28,7 @@ main-content titles - h3
 project titles - h4
 announcement titles - h5
 */
+
 
 .icon {
     width: 20px;
@@ -274,6 +279,7 @@ h1 .icon {
 h4 {
     font-size: 1.1em;
     margin-bottom: 0;
+    
 }
 
 /* small stuff */
