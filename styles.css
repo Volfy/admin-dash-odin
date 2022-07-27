@@ -211,6 +211,13 @@ h1 .icon {
     border-radius: 10px;
 
 }
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(190, 189, 189);
+    width: 100%;
+}
+
 
 .trending-section {
     grid-area: 2/2/-1/-1;
@@ -273,9 +280,7 @@ h1 .icon {
 .card .icon {
     width: 30px;
 }
-.card p {
-    color: rgb(69, 69, 69);
-}
+
 h4 {
     font-size: 1.1em;
     margin-bottom: 0;
@@ -293,10 +298,8 @@ a {
     color: inherit;
     text-decoration: initial;
 }
-hr {
-    border: none;
-    height: 1px;
-    background-color: black;
+p {
+    color: rgb(69, 69, 69);
 }
 
 
