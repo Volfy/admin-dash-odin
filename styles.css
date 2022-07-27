@@ -5,6 +5,7 @@
     --main-color: #164699;
     --neutral-color: white;
     --accent-color: #9E2B25;
+    --link-hover-color: #ffcdcb;
     --head-color: black;
     --text-color: grey;
     --shadow-color: #bfb2c3;
@@ -26,7 +27,7 @@ body {
     padding: 0;
 
     font-family: 'Roboto', san-serif;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.03em;
 }
 
 p {
@@ -191,7 +192,7 @@ h2 {
     justify-content: left;
 }
 .sidebar a:hover {
-    color:var(--accent-color);
+    color:var(--link-hover-color);
 }
 h1 {
     font-size: 2.2em;
@@ -247,9 +248,8 @@ h1 .icon {
 }
 hr {
     border: none;
+    border-top: 1px solid rgb(190, 189, 189);
     height: 1px;
-    background-color: rgb(190, 189, 189);
-    width: 100%;
     margin: var(--main-padding);
     margin-left: 0;
 }
