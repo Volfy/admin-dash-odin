@@ -246,13 +246,14 @@ h1 .icon {
 }
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     height: 200px;
     gap: 10px;
 }
 .card {
     background-color: white;
     border-radius: 10px;
+    border-left: 10px solid orange;
 
     padding: var(--main-padding);
     padding-top: 0px;
@@ -271,6 +272,7 @@ h1 .icon {
     color: rgb(69, 69, 69);
 }
 h4 {
+    font-size: 1.1em;
     margin-bottom: 0;
 }
 
