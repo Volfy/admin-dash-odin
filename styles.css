@@ -112,6 +112,11 @@ ul {
     margin: 0;
     padding: 0;
 }
+a {
+    color: inherit;
+    text-decoration: initial;
+}
+
 
 .icon {
     width: 20px;
