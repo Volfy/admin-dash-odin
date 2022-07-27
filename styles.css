@@ -7,7 +7,7 @@ body {
 
     font-family: 'Roboto', san-serif;
 }
-
+ 
 /*
 Dashboard - h1
 hi there NAME > NAME - h2
@@ -24,6 +24,7 @@ announcement titles - h5
 .pfp {
     width: 40px;
     height: auto;
+    border-radius: 50%;
 }
 
 
