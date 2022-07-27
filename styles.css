@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-    --bg-color: grey;
-    --main-color: blue;
+    --bg-color: #e6dbe9;
+    --main-color: #164699;
     --neutral-color: white;
-    --accent-color: orange;
+    --accent-color: #9E2B25;
     --head-color: black;
     --text-color: grey;
 }
@@ -62,7 +62,7 @@ Boxshadow on header, cards, announcements, trending.
 .header {
     grid-area: 1/2/2/-1;
 
-    margin-top: 14px;
+    
 
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -71,6 +71,7 @@ Boxshadow on header, cards, announcements, trending.
     background-color: var(--neutral-color);
     padding-bottom: 20px;
     padding-left: 20px;
+    padding-top: 14px;
 }
 .search {
     align-self: center;
